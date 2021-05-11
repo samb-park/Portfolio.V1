@@ -1,16 +1,33 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const mongoose = require('mongoose');
+const ejs = require('ejs');
 
 const app = express();
-const port = process.env.PORT || 3000;
+
+const publicDirectoryPath = path.join(__dirname, './public');
+const viewsPath = path.join(__dirname, 'views');
+
+app.set('view engine', 'ejs');
+app.set('views', viewsPath);
+
+app.use(express.static(publicDirectoryPath))
+
 
 app.get('/', (req, res) => {
-    res.send('HELLOa');
+    res.render('index');
 });
 
-app.listen(port, () => {
-    console.log(`Server is up on port ${port}.`);
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio');
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
+app.get('/resume', (req, res) => {
+    res.render('resume');
+});
+
+module.exports = app;

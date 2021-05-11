@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  #nav_image {
+    display: none; }
+
+  .subtitle {
+    display: none; }
+
+  .line {
+    border: none; }
+
+  .underline {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  #sidebar {
+    width: 300px;
+    height: 100vh;
+    position: fixed; }
+
+  main {
+    margin-left: 300px;
+    height: 100vh; }
+
+  #nav_button {
+    display: none; }
+
+  #brand {
+    display: none; }
+
+  .line {
+    border-right: solid gray 1px; } }
+#profile {
+  margin-left: 25px; }
+
+.underline {
+  width: 110%;
+  transform: translateX(-25px);
+  border-bottom: #eee 1px solid;
+  box-shadow: #000 10px 2px;
+  margin: 1rem 0rem 3rem 0; }

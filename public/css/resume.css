@@ -1,0 +1,7 @@
+#portfolio {
+  max-width: 900px; }
+
+.resume_line {
+  width: 100%;
+  border-bottom: #000 3px double;
+  margin: 1rem 0rem 2rem 0; }
