@@ -7,10 +7,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('HELLO');
+    res.send('Sangbong Poftfolio');
 });
 
 app.listen(port, () => {
     console.log(`Server is up on port ${port}.`);
 });
-
