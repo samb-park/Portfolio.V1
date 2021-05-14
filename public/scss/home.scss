@@ -15,11 +15,11 @@
   }
   .line {
     width: 100px;
-    border-bottom: #eee 2px solid;
-    margin: 1rem 0rem 3rem 0;
+    border-bottom: #eee 3px solid;
+    // margin: 1rem 0rem 1rem 0;
     text-align: center;
   }
-  å #name {
+  #name {
     letter-spacing: 0.5rem;
   }
   .btn {
@@ -28,19 +28,6 @@
   }
 }
 
-#about {
-  //   background-image: url("../img/background2.jpg");
-  //   background-size: cover;
-  //   height: 100vh;
-}
-
-// #portfolio {
-//   background-image: url("../img/background1.jpg");
-//   background-size: cover;
-// }
-
-#contact {
-  //   background-image: url("../img/background1.jpg");
-  //   background-size: cover;
-  height: 100vh;
+a:hover {
+  color: white;
 }
