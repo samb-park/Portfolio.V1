@@ -1,0 +1,26 @@
+@charset "UTF-8";
+#home_main {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+  position: relative; }
+
+.home-text {
+  position: absolute;
+  top: 30%;
+  width: 100%; }
+  .home-text p {
+    text-align: center; }
+  .home-text .line {
+    width: 100px;
+    border-bottom: #eee 2px solid;
+    margin: 1rem 0rem 3rem 0;
+    text-align: center; }
+  .home-text å #name {
+    letter-spacing: 0.5rem; }
+  .home-text .btn {
+    width: 200px;
+    align-self: center; }
+
+#contact {
+  height: 100vh; }
